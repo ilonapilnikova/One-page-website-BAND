@@ -108,7 +108,7 @@ $(document).ready(function() {
             opacity: 1, 
             duration: 2.5, 
             ease: "power2.out", 
-            delay: 3.2, 
+            delay: 0.8, 
         });
     });
 });
