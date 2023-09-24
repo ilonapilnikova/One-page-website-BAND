@@ -25,13 +25,13 @@ window.addEventListener("scroll", function() {
     if (scroll > scrollDirection) {
         // Прокрутка вниз
         if (scroll > tourDistance) {
-            var opacity = 1 - ((scroll - tourDistance) / 1000);
+            var opacity = 1 - ((scroll - tourDistance) / 1800);
             tour.style.opacity = opacity;
         }
     } else {
         // Прокрутка вверх
         if (scroll > tourDistance) {
-            var opacity = 1 - ((scroll - tourDistance) / 1000);
+            var opacity = 1 - ((scroll - tourDistance) / 1800);
             tour.style.opacity = opacity;
         }
     }
